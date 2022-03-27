@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#cep {
+  outline: none;
+  height: 28px;
+}
+
+#submit {
+  padding: 5px;
+  cursor: pointer;
+  background: #FFF;
+  border: 1px solid #000;
+}
+
+#submit:hover {
+  background: #000;
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+
+span {
+  display: block;
+}
+
+.erro {
+  color: #F00;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.conteudo {
+  margin-top: 20px;
+  list-style-type: none;
+}
